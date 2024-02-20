@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/Avatar.png";
-import Tilt from "react-parallax-tilt";
+
 import {
   AiFillGithub,
   AiOutlineTwitter,
@@ -14,8 +13,8 @@ function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
-        <Row>
-          <Col md={8} className="home-about-description">
+        
+          <Row md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }} data-aos="fade-right">
               <span className="primary-header"> ABOUT </span> ME
             </h1>
@@ -45,17 +44,8 @@ function Home2() {
               <i className="primary-header">projects </i>projects that I can add
               here.
             </p>
-          </Col>
-          <Col md={4} className="myAvtar">
-            <Tilt>
-              <img
-                data-aos="fade-left"
-                src={myImg}
-                className="img-fluid"
-                alt="avatar"
-              />
-            </Tilt>
-          </Col>
+      
+          
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
@@ -66,7 +56,7 @@ function Home2() {
             <ul className="home-about-social-links" data-aos="fade-up">
               <li className="social-icons">
                 <a
-                  href="https://github.com/Rahuljha4171"
+                  href="https://github.com/prajjwal2-3"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -75,20 +65,10 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
+            
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/kumardotexe"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                  aria-label="twitter"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="mailto:rahul.workmail01@gmail.com"
+                  href="mailto:prajjwalbh25@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -99,7 +79,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/Rahuljha4171/"
+                  href="https://www.linkedin.com/in/prajjwal-sharma-5700811b1/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -108,17 +88,7 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/dead.programmer/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                  aria-label="instagram"
-                >
-                  <AiFillInstagram />
-                </a>
-              </li>
+              
             </ul>
           </Col>
         </Row>

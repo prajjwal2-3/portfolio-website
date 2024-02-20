@@ -22,41 +22,25 @@ function Projects() {
           <Col md={6} lg={4} className="project-card">
             <ProjectCard
               imgPath={Ecart}
-              title="E Cart"
-              description="This is a fully functional eCommerce website that uses React.js + MUI and CSS in the front end and NodeJs and express js in backend and MongoDb as Database."
-              ghLink="https://github.com/rahuljha4171/E-cart"
-              demoLink="https://ecart.onrender.com/"
+              title="EDhaba"
+              description="This is a fully functional eRestaurant website that uses React.js + MUI + TailwindCSS in the front end. It relies on Swiggy's Original API for restaurant info and redux toolkit for state management."
+              ghLink="https://github.com/prajjwal2-3/Edhaba-prod.git"
+              demoLink="https://edhaba-prod.vercel.app/"
             />
           </Col>
 
           <Col md={6} lg={4} className="project-card">
             <ProjectCard
               imgPath={Portfolio}
-              title="Portfolio Website"
-              description="My personal Portfolio Website build with React and Bootstrap. It is fully responsive website which supports both dark and light mode."
-              ghLink="https://github.com/rahuljha4171/Portfolio-Website"
-              demoLink="https://rahuljha.info/"
+              title="MovieGPT"
+              description="MovieGPT is a website that uses chatgpt's intelligence to recommend you movies according to given prompt."
+              ghLink="https://github.com/prajjwal2-3/moviegpt.git"
+              demoLink="https://moviegpt-eight.vercel.app/login"
             />
           </Col>
-          <Col md={6} lg={4} className="project-card">
-            <ProjectCard
-              imgPath={PrivateChat}
-              title="Private Chat"
-              description="A Personal Chat Application to share resources and hangout with friends build with react.js, css, and Firebase. Have features which allows user for realtime messaging, image sharing and search user."
-              ghLink="#"
-              demoLink="https://chat-app-rahuljha4171.vercel.app/"
-            />
-          </Col>
+         
 
-          <Col md={6} lg={4} className="project-card">
-            <ProjectCard
-              imgPath={ExpenseTracker}
-              title="Expense Tracker"
-              description="An online expense tracker using React, Node, Express, and MongoDB as the database. It allows you to keep track of your expenses, investments, and savings. All past transactions are listed, and you can also delete them. "
-              ghLink="https://github.com/rahuljha4171/Expense-Tracker"
-              demoLink="https://expense-tracker.rahuljha4171.vercel.app/"
-            />
-          </Col>
+          
         </Row>
       </Container>
       <ScrollToTop />

@@ -95,7 +95,7 @@ function NavBar() {
             </Nav.Item>
             <Nav.Item>
               <Nav.Link
-                href="https://blog.rahuljha.info/"
+                href="https://devforprajjwal.hashnode.dev/"
                 target="_blank"
                 rel="noreferrer"
               >
