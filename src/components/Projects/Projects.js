@@ -35,7 +35,7 @@ function Projects() {
               title="MovieGPT"
               description="MovieGPT is a website that uses chatgpt's intelligence to recommend you movies according to given prompt."
               ghLink="https://github.com/prajjwal2-3/moviegpt.git"
-              demoLink="https://moviegpt-eight.vercel.app/login"
+              demoLink="https://moviegpt-5at.vercel.app/login"
             />
           </Col>
          
