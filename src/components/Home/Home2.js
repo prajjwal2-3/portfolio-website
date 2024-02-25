@@ -20,9 +20,9 @@ function Home2() {
             </h1>
             <p className="home-about-body" data-aos="fade-up">
               <br />
-              I'm a <i className="primary-header">
-                Self-Taught Web Developer
-              </i>{" "}
+              I'm a  
+                <span className="primary-header"> Self-Taught Web Developer</span>
+              {" "}
               who loves solving problems and building Websites.
               <br />
               <br />I am passionate about{" "}

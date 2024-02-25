@@ -16,9 +16,10 @@
   text-align: center !important;
   background: transparent !important;
   box-shadow: var(--shadow) !important;
-  border-radius: 5px !important;
+  border-radius: 20px !important;
   display: table !important;
   overflow: hidden !important;
+  
   transition: all 0.4s ease 0s !important;
 }
 .quote-card-view {

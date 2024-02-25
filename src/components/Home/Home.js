@@ -6,6 +6,7 @@ import ScrollToTop from "../ScrollToTop/ScrollToTop";
 import Home2 from "./Home2";
 import Type from "./Type";
 import "./home.css";
+import Techstack from "../About/Techstack";
 
 function Home() {
   return (
@@ -42,6 +43,7 @@ function Home() {
           </Row>
         </Container>
       </Container>
+      <Techstack/>
       <Home2 />
       <ScrollToTop />
     </section>
