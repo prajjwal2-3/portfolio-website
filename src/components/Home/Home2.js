@@ -26,22 +26,22 @@ function Home2() {
               who loves solving problems and building Websites.
               <br />
               <br />I am passionate about{" "}
-              <i className="primary-header">technologies</i> and love to learn
+              <span className="primary-header">technologies</span> and love to learn
               new things.
               <br />
               <br />I am more interested in building new
-              <i>
-                <i className="primary-header">Web Technologies and Products.</i>
-              </i>
+              <span>
+                <span className="primary-header"> Web Technologies and Products.</span>
+              </span>
               <br />
               <br />I always apply my experience in developing products with{" "}
-              <i className="primary-header">Node.js</i> and Modern Javascript
+              <span className="primary-header">Node.js</span> and Modern Javascript
               Library and Framework like
-              <i className="primary-header"> React.js.</i>
+              <span className="primary-header"> React.js.</span>
               <br />
               <br />
               Currently expanding my portfolio by building more{" "}
-              <i className="primary-header">projects </i>projects that I can add
+              <span className="primary-header">projects </span>projects that I can add
               here.
             </p>
       
