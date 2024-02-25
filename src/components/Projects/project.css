@@ -20,6 +20,11 @@
   box-shadow: var(--shadow) !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
+  border-radius: 20px !important;
+}
+.imgproj{
+   border-radius: 20px !important;
+   padding: 10px !important;
 }
 .project-card-view:hover {
   transform: scale(1.05) !important;
@@ -60,13 +65,13 @@
 .card-img-top {
   padding: 20px !important;
   opacity: 0.8 !important;
-  border-radius: 10px !important;
+  border-radius: 20px !important;
 }
 
 .blog-img {
   padding: 0px !important;
   opacity: 0.8 !important;
-  border-radius: 0px !important;
+  border-radius: 20px !important;
 }
 
 .btn-primary {

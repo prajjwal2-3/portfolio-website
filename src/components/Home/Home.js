@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeIcon from "../../Assets/homeicons.svg";
 import ScrollToTop from "../ScrollToTop/ScrollToTop";
-
+import Projects from "../Projects/Projects";
 import Home2 from "./Home2";
 import Type from "./Type";
 import "./home.css";
@@ -43,7 +43,11 @@ function Home() {
           </Row>
         </Container>
       </Container>
+      <h1 data-aos="fade-right">
+          <span className="primary-header">Skillset</span> I Work With
+        </h1>
       <Techstack/>
+      <Projects/>
       <Home2 />
       <ScrollToTop />
     </section>
